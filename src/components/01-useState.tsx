@@ -5,7 +5,7 @@ const CounterApp = () => {
     <>
       <h1>Counter</h1>
       <hr />
-      <button className={ "px-4" }>+1 </button>
+      <button className={ "px-5" }>+1 </button>
     </>
   );
 };
