@@ -1,10 +1,9 @@
 import React from 'react';
-import CounterApp from './components/01-useState';
+import CounterApp from './components/01-useState/counter';
 
 const HookApp = () => {
   return (
     <>
-      <h1>Hola Mundo</h1>
       <CounterApp/>
     </>
   );
