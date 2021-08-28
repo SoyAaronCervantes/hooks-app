@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom';
 
 import './index.css';
 
-import CounterApp from './components/01-useState/counter';
+// import CounterWithHook from './components/01-useState/CounterWithHook';
+import SimpleForm from './components/02-useEffect/SimpleForm';
 
 ReactDOM.render(
-  <CounterApp />,
+  <SimpleForm />,
   document.getElementById('root')
 );
