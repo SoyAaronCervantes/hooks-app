@@ -5,14 +5,14 @@ import './counter.css';
 
 const CounterApp = () => {
 
-  const { state, increment, decrement, reset } = useCounter( 100 );
+  const { counter, increment, decrement, reset } = useCounter( 100 );
 
   return (
     <div className={" [ p-9 ] "}>
-      <h1 className={"[ text-xl ]"}>Counter - { state }</h1>
+      <h1 className={"[ text-xl ]"}>Counter - { counter }</h1>
       <hr />
-      <button onClick={ () => increment( 2 ) }>+1</button>
-      <button  onClick={ () => decrement( 2 ) }>-1</button>
+      <button onClick={ increment }>+1</button>
+      <button  onClick={ decrement }>-1</button>
       <button  onClick={ reset }>Reset</button>
     </div>
   );
