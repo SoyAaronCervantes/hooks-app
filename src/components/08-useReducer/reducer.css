@@ -1,0 +1,30 @@
+.todo {
+  @apply
+    flex
+    items-center
+    justify-between
+    list-decimal
+    list-inside
+    text-pink-500
+    text-xl
+    border-2
+    border-pink-500
+    rounded
+    bg-transparent
+    ml-6
+    mb-5
+    pl-5
+    cursor-pointer
+    hover:shadow-lg
+    hover:bg-pink-100
+    hover:text-black
+    transition
+    duration-150
+    ease-out
+}
+
+.btn-delete {
+  @apply
+  text-white
+  bg-red-700
+}
