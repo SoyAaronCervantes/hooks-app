@@ -1,0 +1,20 @@
+.nav {
+  @apply flex items-center justify-between p-6 bg-pink-400 text-gray-50 text-opacity-50 shadow-md
+}
+
+.nav--title {
+  @apply text-2xl mr-4 text-white text-opacity-100
+}
+
+.nav--navigation {
+  @apply flex gap-x-4
+}
+
+.nav--element {
+  @apply border-b-2 border-transparent hover:border-white hover:text-opacity-70 hover:text-white
+}
+
+.nav--active {
+  @apply text-white
+}
+

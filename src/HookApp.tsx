@@ -4,7 +4,7 @@ import CounterApp from './components/01-useState/Counter';
 const HookApp = () => {
   return (
     <>
-      <CounterApp/>
+      <h1>Hola mundo</h1>
     </>
   );
 };

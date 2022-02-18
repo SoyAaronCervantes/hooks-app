@@ -8,7 +8,7 @@ const CounterApp = () => {
   const { counter, increment, decrement, reset } = useCounter( 100 );
 
   return (
-    <div className={" [ p-9 ] "}>
+    <div className={" [ flex p-9 ] "}>
       <h1 className={"[ text-xl ]"}>Counter - { counter }</h1>
       <hr />
       <button onClick={ increment }>+1</button>
